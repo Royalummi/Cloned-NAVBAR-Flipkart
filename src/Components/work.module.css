@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#flipnav {
+  height: 56px;
+  width: 100%;
+  background-color: rgb(40, 116, 240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#flipnav > article {
+  height: 100%;
+  width: 62%;
+  /* background-color: aqua; */
+  padding: 8px;
+  font-family: Roboto, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#flipnav > article > .fk > .fk2 {
+  font-size: 11px;
+}
+#flipnav > article > .fk > .fk2 > a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 700;
+}
+#flipnav > article > .fk > .fk2 > a:hover {
+  text-decoration: underline;
+}
+#flipnav > article > .fk > .fk2 > a > span {
+  color: rgb(252, 227, 4);
+}
+#flipnav > article > .ser{
+  display: flex;
+}
+#flipnav > article > .ser>input {
+  position: relative;
+  outline: none;
+  border: 0;
+  height: 36px;
+  width:521px ;
+  padding-left: 15px;
+  font-family: Roboto,Arial,sans-serif;
+}
+#flipnav > article > .ser>a>i
+{
+  top: 8px;
+  font-size: 18px;
+  color:rgb(40,116,240);
+  position: relative;
+  left: -35px;
+}
+#flipnav > article>.login>a>button
+{
+  background-color:rgb(255,255,255) ;
+  border: 0;
+  height: 31px;
+  width: 121px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto,Arial,sans-serif;
+  color: rgb(40,116,240);
+}
+#flipnav > article>.login>a>button:hover
+{
+  cursor: pointer;
+}
+#flipnav > article>.sel>a
+{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bolder;
+  color: #fff ;
+}
+#flipnav > article>.sel>a>i
+{
+  position: relative;
+  right: -6px;
+  top: px;
+  font-size: 10px;
+}
+#flipnav > article>.cart>a
+{
+  display: flex;
+  color: #ffffff;
+  text-decoration: none;
+}
+#flipnav > article>.cart>a>i
+{
+  padding-right: 8px;
+}
+
